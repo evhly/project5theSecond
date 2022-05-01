@@ -9,7 +9,6 @@ public class Campaign {
         this.h = h;
         encounters = new ArrayList<>();
         encounters.add(Encounter.firstEncounter(h));
-
         encounters.add(Encounter.bossEncounter(h));
         currEncIdx = 0;
     }
